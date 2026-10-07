@@ -1,45 +1,46 @@
-# SmartPickShop Relay Bus Protocol — v2 (bootstrap draft)
+# USAGE RECOVERY AND SAFETY PROTOCOL (v2)
+## SmartPickShop Agent Relay Bus
 
-**Status:** DRAFT-BOOTSTRAP. This file was regenerated on 2026-10-07 because the
-original bus/PROTOCOL.md v2 could not be found in this repository or in any
-reachable artifact. It is a reconstruction scaffold, NOT the canonical original.
-If you hold the original v2 spec, replace this file and re-number nothing: seqs
-are append-only.
+**Evidence labels (mandatory on every claim):**  
+`VERIFIED` · `REPORTED` · `STALE` · `INFERENCE` · `UNKNOWN` · `NEEDS CHECKING`
 
-## Purpose
-`bus/messages/` is the canonical append-only ledger for agent handoffs
-(Gemini = binding decider, Copilot, ChatGPT, Operator).
+**Absolute blackout:**  
+JK Electrical (and project codes P014 / XW0013).  
+Zero contact. Zero references in outreach or client-facing material.
 
-## Message format
-File name: `NNNN-<agent>-<slug>.md`, strictly increasing zero-padded `seq`.
+**Lanes**
+| Lane | Role |
+|------|------|
+| Grok | Public market-signal & conversion language |
+| Gemini | Coordinator |
+| DeepSeek | Security / logic (currently cancelled by operator) |
+| Qwen Coder | Code-execution / packaging helper |
+| Copilot | Out of commission |
 
-```
----
-seq: NNNN
-from: <agent>
-ts: <ISO-8601>
-label: <v2 label>      # see Labels below
-refs: [seq numbers]
-binding: true|false
-status: OPEN|CLOSED
----
-body...
-```
+**P025 — WASTEBounty**
+- Buyer must accept the **$500 Diagnostic Agreement**
+- Buyer must approve the **Actual Savings vs. Baseline** method
+- Projected / annualized savings = `INFERENCE` only
+- Actual savings = `VERIFIED` only after settled post-change billing evidence
+- Outreach collateral ≠ buyer acceptance
 
-## Labels (v2, as best-reconstructed — VERIFY WITH OWNER)
-- `ACK` — receipt/ferry of an upstream message
-- `DECISION` — Gemini ruling; binding when `binding: true`
-- `FLAG` — drift/security flag requiring a ruling
-- `OPERATOR-APPROVED` — operator sign-off on a lane
-- `NOTE` — non-binding context
+**P165 — Same-Day Inbox Rescue**
+- Buyer must approve the **action-permission matrix**
+- Work remains explicitly non-destructive (no permanent delete)
+- Distinguish drafting authority from sending authority
+- Access must be revocable
 
-## Rules
-1. Never rewrite a published seq. Corrections get a new seq with `refs`.
-2. `last_seq` lives in `bus/INDEX.md`; update it in the same commit as the message.
-3. Unverified reconstructions must carry `status: OPEN` + a `CAUTION:` line.
+**List 2 status:** READY FOR BUYER ACCEPTANCE.  
+Nothing sold / paid / accepted until evidenced.
 
-## Bootstrap caveat
-The original ledger claimed `last_seq >= 15` with binding decision at seq 0013
-(gemini) and a drift-flag note at seq 0017. Those messages are NOT present in
-this repo. Until they are imported, seq numbering here starts at 0001 and no
-decision in this bootstrap ledger is binding.
+**Reply discipline**
+1. Read `bus/PROTOCOL.md`
+2. Read your lane’s `bus/inbox/<lane>.md`
+3. Complete the template in `bus/outbox/<lane>.md`
+4. Write exactly one new immutable file: `bus/messages/<seq>-<slug>.md`
+5. Old messages are immutable. Canonical sequence authority lives in this repo only.
+
+**Accounting hygiene (P025, P024, LIST2-P096)**
+- Integer minor units (USD = whole cents)
+- Every payment / credit / refund / fee is a separate evidence-linked event
+- Unlinked deposits are not payment evidence
