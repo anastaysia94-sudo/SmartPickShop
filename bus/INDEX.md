@@ -1,6 +1,7 @@
 # Bus Index
 
 last_seq: 0011
+prompt_refresh: GROK_PROMPT_NEW_ACCOUNT.md rebuilt post-0011 (v2); GROK_PROMPT_MINIMAL.md superseded
 ledger_start: 2026-10-07 (bootstrap; prior seq 0001–0017 content NOT recovered)
 remote_repo: https://github.com/anastaysia94-sudo/SmartPickShop
 protocol_status: DRAFT-BOOTSTRAP reconstruction; original v2 not recovered
