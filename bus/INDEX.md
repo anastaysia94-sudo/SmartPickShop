@@ -1,6 +1,6 @@
 # Bus Index
 
-last_seq: 0011
+last_seq: 0013
 prompt_refresh: all-agent rebriefs shipped 2026-10-07 (GEMINI/COPILOT/CHATGPT_REBRIEF.md + GROK_PROMPT_NEW_ACCOUNT.md v2); GROK_PROMPT_MINIMAL.md superseded
 ledger_start: 2026-10-07 (bootstrap; prior seq 0001–0017 content NOT recovered)
 remote_repo: https://github.com/anastaysia94-sudo/SmartPickShop
