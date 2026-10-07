@@ -9,7 +9,7 @@ timestamp: 2026-10-07T00:00:00Z
 ---
 
 ## Intake
-Operator re-sent the same GitHub PAT (github_pat_11CK6X5SY...) and username a second time,
+Operator re-sent the same GitHub PAT (PAT-11CK6X5SY(prefix only)) and username a second time,
 after seq 0008 had already used it once to push. No new agent reply text was included.
 
 ## State check (this turn)
