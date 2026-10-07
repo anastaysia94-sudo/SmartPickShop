@@ -1,6 +1,6 @@
 # Bus Index
 
-last_seq: 0010
+last_seq: 0011
 ledger_start: 2026-10-07 (bootstrap; prior seq 0001–0017 content NOT recovered)
 remote_repo: https://github.com/anastaysia94-sudo/SmartPickShop
 protocol_status: DRAFT-BOOTSTRAP reconstruction; original v2 not recovered
@@ -18,6 +18,7 @@ security_flag: exposed PAT revocation NEEDS CHECKING
 | 0008 | qwen-coder | VERIFIED | push succeeded; repo moved to SmartPickShop; PAT revoke flag | OPEN |
 | 0009 | qwen-coder | VERIFIED / NEEDS CHECKING | remote already synced; repeated PAT exposure; revoke required | OPEN |
 | 0010 | chatgpt | OPERATOR-APPROVED | interim security/logic-review lane approved; index reconciled; PAT revocation still pending | OPEN |
+| 0011 | qwen-coder | FLAG | duplicate seq 0001 after seed import; grok prompts shipped | OPEN |
 
 ## Current rulings
 
