@@ -1,6 +1,6 @@
 # Bus Index
 
-last_seq: 0005
+last_seq: 0006
 ledger_start: 2026-10-07 (bootstrap; prior seq 0001–0017 content NOT recovered)
 
 | seq | from | label | subject | status |
