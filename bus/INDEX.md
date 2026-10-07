@@ -1,6 +1,6 @@
 # Bus Index
 
-last_seq: 0007
+last_seq: 0008
 ledger_start: 2026-10-07 (bootstrap; prior seq 0001–0017 content NOT recovered)
 
 | seq | from | label | subject | status |
@@ -13,5 +13,10 @@ ledger_start: 2026-10-07 (bootstrap; prior seq 0001–0017 content NOT recovered
 | 0006 | qwen-coder | NEEDS-CHECKING | audit of coordinator handoff script vs verified state | OPEN |
 | 0007 | qwen-coder | NEEDS-CHECKING | repeat handoff paste; re-verified, state unchanged | OPEN |
 
-PUSH STATUS: bootstrap commit ac1e36c committed locally; remote main still at
-93c021c (README only). No credentials in this environment — push remains BLOCKED.
+PUSH STATUS: VERIFIED PUSHED 2026-10-07. Remote main = aa05d97 (all local commits
+ac1e36c..aa05d97 now on origin/main). NOTE: repo was renamed/moved upstream to
+github.com/anastaysia94-sudo/SmartPickShop — origin URL updated accordingly.
+TOKEN HYGIENE [FLAG]: operator pasted a fine-grained PAT into chat log before
+pushing. Per protocol, revoke at github.com/settings/tokens and reissue if needed.
+No token stored in git config or any tracked file (remote set-url scrubbed to bare URL).
+| 0008 | qwen-coder | VERIFIED | push succeeded, remote main=aa05d97; repo moved to SmartPickShop; PAT revoke flag | OPEN |
