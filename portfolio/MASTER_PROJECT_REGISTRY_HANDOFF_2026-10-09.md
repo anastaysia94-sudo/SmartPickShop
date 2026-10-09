@@ -91,3 +91,15 @@ Snapshot: 2026-10-09. This is a consolidation, not an exhaustive verified audit.
 
 ## Receiving LLM execution directive
 Read the canonical ledger and repo state first; reconcile IDs, branch/commit, open gates and asset pointers. Update only with minimal reversible commits and evidence. Write a new handoff, update LATEST.md after validation, and report verified vs blocked. Never claim 100% without runtime evidence. Do not contact JK Electrical.
+
+## LIVE RECONCILIATION ADDENDUM — 2026-10-09
+This 40-row table is a SHORTLIST, not the canonical full project population. The live Google Sheet's Counts and Canonical Location tab records 191 current family records, 373 preserved source-version rows, 171 legacy project records, and 98 source assets. These are distinct populations.
+
+VERIFIED SOURCE CORRECTIONS:
+- P001 SmartPickShop Holdings: 221/1,890 rebrand assets recorded; 1,669 open. Launch and revenue unverified.
+- P002 Founder Dynasty OS: ledger reports signup/sign-in and Business A persistence proven; same-account A/B switching, sign-out/in restore, desktop/mobile acceptance still open.
+- P004 Sales OS belongs to P002; P010 Cashh Radar remains separate.
+- P007 Corporate Hieroglyphics Wiki is distinct from P166 LNC / Lucrative Notebook; P008 is parented to P166.
+- HOSI is the Human Operating System Institute: an evidence-first educational project covering cognition, behavior, mental health literacy, recovery and practical skills. Its README documents constitution/, curriculum/, courses/HOSI-101/, founders-atlas/, research/, platform/ (WordPress/LMS/AI and web/Android scaffolds), branding/, AGENTS.md and LLM_CONTINUATION_PLAYBOOK.md. Production, independent academic review, source verification and release testing remain open. This supersedes the unknown HOSI fields above.
+
+NEXT GATES: reconcile all 191 identities against source crosswalk; inspect code and commit evidence for all 21 repos; test Founder OS account switching/restore/checkout, Trend Lab auth/source match/mobile/export, Dumpster Atlas edit/offline/phone, and HOSI review/deployment. No claim of 100% completion. JK Electrical zero-contact restriction remains absolute.
