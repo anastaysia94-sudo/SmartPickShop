@@ -103,3 +103,14 @@ VERIFIED SOURCE CORRECTIONS:
 - HOSI is the Human Operating System Institute: an evidence-first educational project covering cognition, behavior, mental health literacy, recovery and practical skills. Its README documents constitution/, curriculum/, courses/HOSI-101/, founders-atlas/, research/, platform/ (WordPress/LMS/AI and web/Android scaffolds), branding/, AGENTS.md and LLM_CONTINUATION_PLAYBOOK.md. Production, independent academic review, source verification and release testing remain open. This supersedes the unknown HOSI fields above.
 
 NEXT GATES: reconcile all 191 identities against source crosswalk; inspect code and commit evidence for all 21 repos; test Founder OS account switching/restore/checkout, Trend Lab auth/source match/mobile/export, Dumpster Atlas edit/offline/phone, and HOSI review/deployment. No claim of 100% completion. JK Electrical zero-contact restriction remains absolute.
+
+## FULL IDENTITY CROSSWALK CHECK — 2026-10-09
+Read all 191 crosswalk rows (191 unique family keys) and Portfolio Launch A1:D790 (565 populated rows including historical version records). Every one of the 191 current qualified identities resolves to a Portfolio Launch ID: **0 missing current identities**. This is an identity/name reconciliation, not a field-by-field 29-column acceptance audit. Historical rows were read-only and not altered.
+
+One exact-title discrepancy: XW0008 / P009 is 'Master project register / Atlas / Wiki' in Identity Crosswalk versus 'Master Project Ledger & Register' in Portfolio Launch. Preserve both as source labels; canonical title requires source-owner decision. Do not rename blindly.
+
+Collision preserved: XW0187:P171 = StackPlay; XW0191:P171 = Flow Studio. Never join by bare P171. P004 Sales OS belongs to P002, and P007/P166 remain separate.
+
+Priority project source locations: founder-os, smartpickshop-trend-lab, dumpsteratlas, human-operating-system-institute repos inspected for presence/root; HOSI README inspected in detail. Flow Studio is a distinct ledger identity but implementation/runtime unverified. AI Commons phpBB runtime acceptance unverified. Repository existence is NOT runtime or commercial acceptance.
+
+REMAINING: deeper six-project file-by-file audit, CI/runtime/browser tests, ledger A:E through AC field-by-field reconciliation, P009 title decision, canonical handoff LATEST.md pointer. No application source files changed.
