@@ -1,0 +1,74 @@
+/*
+Theme Name: Voltage Foundry — SmartPickShop USA
+Theme URI: https://github.com/anastaysia94-sudo/SmartPickShop
+Author: SmartPickShop USA Holdings
+Description: Staging-only Four Gears WordPress theme, no public launch claimed. Four modes: Brass, Neon, Riot, Midnight.
+Version: 0.1.0
+Requires at least: 6.0
+Requires PHP: 7.4
+Text Domain: voltage-foundry
+*/
+:root {
+  color-scheme: dark;
+  --iron:#111827; --iron-2:#1f2937; --night:#080d17;
+  --brass:#b87333; --gold:#f59e0b;
+  --cyan:#22d3ee; --magenta:#f472b6; --violet:#a78bfa;
+  --paper:#f3f6fb; --muted:#bac6d5; --line:#526075;
+  --radius:1rem; --content:74rem;
+  font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:radial-gradient(ellipse at 65% -25%,#253755 0,transparent 53%),var(--night);color:var(--paper);line-height:1.65}
+a{color:var(--cyan);text-underline-offset:.2em}a:hover{text-decoration-thickness:.15em}
+img,video{max-width:100%;height:auto}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.screen-reader-text{position:absolute;left:-10000px}
+.screen-reader-text:focus{left:1rem;top:1rem;background:var(--paper);color:var(--night);padding:.6rem 1rem;z-index:99}
+.container{max-width:var(--content);margin-inline:auto;padding-inline:clamp(1rem,3vw,2rem)}
+.vf-topline{height:5px;background:linear-gradient(90deg,var(--brass),var(--gold) 27%,var(--cyan) 59%,var(--magenta))}
+.site-header{border-bottom:1px solid #45566b;background:#111827e8}
+.header-inner{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem;padding-block:1rem}
+.brand{font-size:1.1rem;font-weight:850;letter-spacing:.03em;text-decoration:none;color:var(--paper);max-width:20ch;line-height:1.15}
+.brand span{display:block;color:var(--cyan);font-size:.68rem;text-transform:uppercase;letter-spacing:.21em;margin-top:.2rem}
+.nav-list{display:flex;flex-wrap:wrap;align-items:center;gap:.3rem 1.2rem;list-style:none;margin:0;padding:0}
+.nav-list a{color:var(--paper);font-weight:650;text-decoration:none}
+.nav-list a:hover{color:var(--cyan)}
+main{min-height:50vh}
+.eyebrow{display:inline-flex;gap:.5rem;align-items:center;color:var(--cyan);font-size:.72rem;text-transform:uppercase;letter-spacing:.19em;font-weight:800}
+.hero{padding-block:clamp(4rem,8vw,8rem) clamp(3rem,7vw,6rem);position:relative}
+.hero-grid{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(17rem,.8fr);gap:clamp(2rem,5vw,5rem);align-items:center}
+.hero h1{font-size:clamp(2.75rem,6.2vw,6rem);letter-spacing:-.065em;line-height:.99;margin:.8rem 0 1.2rem;max-width:13ch}
+.hero h1 em{font-style:normal;background:linear-gradient(100deg,var(--gold),var(--cyan) 65%,var(--magenta));-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p{max-width:57ch;font-size:clamp(1rem,1.6vw,1.2rem);color:var(--muted)}
+.actions{display:flex;flex-wrap:wrap;gap:.8rem;margin-top:2rem}
+.button{border:1px solid var(--cyan);display:inline-flex;align-items:center;justify-content:center;min-height:2.85rem;padding:.55rem 1.1rem;border-radius:.4rem;color:var(--night);background:var(--cyan);font-weight:800;text-decoration:none}
+.button.secondary{background:transparent;color:var(--paper);border-color:var(--brass)}
+.button:hover{filter:brightness(1.12)}
+.emblem{position:relative;aspect-ratio:1;display:grid;place-items:center;isolation:isolate;border-radius:50%;border:2px solid var(--brass);box-shadow:0 0 0 13px #b8733314,0 0 75px #22d3ee21;max-width:23rem;margin-inline:auto;background:repeating-conic-gradient(from 0deg,#b8733318 0 12deg,#0b1424 12deg 24deg)}
+.emblem::before{content:"";position:absolute;inset:15%;border:2px dashed var(--cyan);border-radius:50%;opacity:.65}
+.emblem strong{font-size:clamp(4rem,8vw,7rem);letter-spacing:-.1em;line-height:1;color:var(--gold);text-shadow:4px 4px 0 var(--night),0 0 22px #f59e0b77}
+.emblem small{position:absolute;bottom:21%;font-size:.75rem;letter-spacing:.25em;font-weight:800;color:var(--cyan)}
+section.panel-section{padding-block:3.5rem 5rem}
+.section-intro{max-width:62ch;margin-bottom:1.7rem}
+.section-intro h2{font-size:clamp(2rem,3vw,3rem);line-height:1.08;margin:.5rem 0}
+.section-intro p{color:var(--muted)}
+.gears{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1rem}
+.gear{position:relative;min-height:14.5rem;padding:1.4rem;border:1px solid #506278;background:linear-gradient(145deg,#1d2838,#111722);border-radius:var(--radius)}
+.gear::before{content:"";height:5px;left:1.3rem;right:1.3rem;top:0;position:absolute;background:var(--accent);border-radius:0 0 .5rem .5rem}
+.gear span{font-size:.76rem;letter-spacing:.16em;font-weight:800;text-transform:uppercase;color:var(--accent)}
+.gear h3{margin:1rem 0 .45rem;font-size:1.65rem;line-height:1.2}
+.gear p{color:var(--muted);font-size:.94rem;margin:0}
+.gear-brass{--accent:var(--gold)}.gear-neon{--accent:var(--cyan)}.gear-riot{--accent:var(--magenta)}.gear-midnight{--accent:var(--violet)}
+.feature-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem}
+.feature{border:1px solid #46566a;background:#142033;padding:1.5rem;border-radius:var(--radius)}
+.feature h3{font-size:1.3rem;margin:.1rem 0 .55rem}.feature p{color:var(--muted);margin:0}
+.note{border-left:3px solid var(--brass);padding:1rem 1.4rem;background:#172334;color:var(--muted)}
+.entry{padding-block:1.5rem;border-bottom:1px solid #46566a}
+.entry h2,.entry h3{margin:.2rem 0;font-size:1.45rem}
+.entry p{color:var(--muted)}
+.site-footer{margin-top:4rem;border-top:1px solid #45566b;padding:2rem 0;color:var(--muted);font-size:.9rem}
+.footer-inner{display:flex;justify-content:space-between;flex-wrap:wrap;gap:1rem}
+@media(max-width:900px){.hero-grid{grid-template-columns:1fr}.emblem{max-width:17rem}.gears{grid-template-columns:repeat(2,minmax(0,1fr))}.feature-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:580px){.gears,.feature-grid{grid-template-columns:1fr}.header-inner{align-items:flex-start}.hero{padding-block:3rem}.emblem{max-width:13rem}.actions{flex-direction:column}.button{width:100%}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
