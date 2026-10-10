@@ -132,3 +132,37 @@ This section supersedes *outdated status pointers above*, not older source/versi
 - The site's WordPress/MyBB/private LLM-only phpBB domains and hosted multi-provider AI gateway are **design/deployment plans**. phpBB Pig Latin extension is a reviewed implementation draft, not an accepted live extension; final-five-of-twenty combined-post moderation and unanimous approvals require exact rules and runtime tests.
 - STRICT ZERO CONTACT for JK Electrical remains in force; P014 draft blogs/price proposal are not publication/paid sales. No new revenue verified.
 - Maintain Usage Survival Mode: batch reads/writes, avoid duplicate audits, keep portable handoffs, distinguish source/CI tests from hosted/device/customer release gates, and never claim 100% acceptance without direct evidence.
+
+
+## [ChatGPT - anastaysia94] [2026-10-10 06:17 PT] — Cross-ledger website, branding, products and media checkpoint
+
+This dated section is a follow-up checkpoint. It does not replace the 2026-10-09 source snapshot. Existing original projects, contributors, historic material, XW project identities and financial truth states remain unchanged. Every item below is an update, not proof that a live website changed.
+
+### Files now bearing this checkpoint
+- [ChatGPT - anastaysia94] [2026-10-10 06:17 PT] — Master Project Ledger, tab `2026-10-10 0617 Media Web Sync`: 16 sourced, status-labeled records. https://docs.google.com/spreadsheets/d/1pbhUGktco-Esh7n_HLFzt5KdUJ-BevXM1h0udUjLrrk/edit
+- [ChatGPT - anastaysia94] [2026-10-10 06:17 PT] — Master Product Ledger, tab `2026-10-10 0617 Product Sync`: 6 non-duplicative summary records. https://docs.google.com/spreadsheets/d/1XNamzMh-J52v-7qWzlFNgfRGcc_p1iM_YvVzxfeMG00/edit
+- [ChatGPT - anastaysia94] [2026-10-10 06:17 PT] — Master Blogging Ledger, tab `2026-10-10 0617 Blog Media Sync`: 8 editorial/media records. https://docs.google.com/spreadsheets/d/1CSl_aaPOaX1uf_D71Db_MXdQO6e2DjHqV5l_SjQ9Rw/edit
+- [ChatGPT - anastaysia94] [2026-10-10 06:17 PT] — Corporate Hieroglyphics Definitions Wiki: 18 additional terms; vocabulary definitions live in P007 only. https://docs.google.com/document/d/1g0hGwNzlYbS31OZ7AsO_R2uibTyoPfQkWWqCc_6VEmQ/edit
+
+### Current truth states
+- [ChatGPT - anastaysia94] [2026-10-10 06:17 PT] — P001/P068 branding: four existing directions Brass/Neon/Riot/Midnight; 21 earlier Drive-verified PNGs in runbook. Later asset manifest reports 301/1,949 queue labels completed and 1,648 open. Label completion does not prove each site placement, finished image, phone acceptance or production deployment. PRJ003-03 FG31 HERO candidate still requires source/lineage/permission inspection; PRJ004-07 background/pattern is an independently open queue entry. https://docs.google.com/spreadsheets/d/154yiQxqPjhHgZ94pYvqkqhH6zV5vKnKyllhY92v57FI/edit
+- [ChatGPT - anastaysia94] [2026-10-10 06:17 PT] — Creative family: Roxie, Juno and Sable have earlier Four Gears production evidence; complete younger Oops Academy profiles, all friends/family, Beacon dog, front/profile viewpoints, scripts, full frame-by-frame claymation exports and cross-site styling are not fully accepted.
+- [ChatGPT - anastaysia94] [2026-10-10 06:17 PT] — Website architecture: proposed `smartpickshopusa.com` WordPress HQ, `.org` MyBB human community, `.info` private phpBB AI community, `.shop` physical and `.store` digital commerce, tied to Azure student hosting and IONOS domains as available. Actual domain ownership, DNS/HTTPS, installs, browser permissions and all live public pages are NOT verified by this document.
+- [ChatGPT - anastaysia94] [2026-10-10 06:17 PT] — Forum roles: ordinary people use MyBB/blog comments; phpBB AI workspaces are restricted to models and founder-authorized access. Combined thread+reply 20-message final-five moderation is requested; proposed four-reply unanimous rule remains a policy decision; neither is a tested live extension.
+- [ChatGPT - anastaysia94] [2026-10-10 06:17 PT] — Blog/media status: Gemini cockpit labels 30 source assets (2 published, 6 drafts, 16 templates, 6 ideas), but no current public URLs or CMS deployment were independently checked for this checkpoint. Story content, YT scripts, images and per-second claymation targets are requirements, not shipped videos.
+- [ChatGPT - anastaysia94] [2026-10-10 06:17 PT] — Store products: 60 Shopify draft import SKUs and 65 separate Trend Lab architectures/ideas remain not deduplicated. Do not label 125 unique market-ready products. Shopify merchant read access and real checkout acceptance unresolved. No sales verified.
+- [ChatGPT - anastaysia94] [2026-10-10 06:17 PT] — Proposed Avatar Passport: optional shopper-owned avatar cosmetics/rewards across domains, distinct from Roxie canon; non-purchase earning route and account identity/privacy remain to design. No deployed feature or sale.
+- [ChatGPT - anastaysia94] [2026-10-10 06:17 PT] — 191 canonical XW project identities; 175 P-number labels with 16 historical reuses. Source checks and acceptance incomplete; use XW before merging. P002 Founder OS same-account A↔B switching, signed-out restore and desktop/mobile acceptance remain open. No new revenue verified.
+- [ChatGPT - anastaysia94] [2026-10-10 06:17 PT] — GitHub Drive backup workflows exist on sampled repositories with cleanup OFF; an actual completed backup, checksums and quota reduction are unverified. Never delete source files or archives based only on workflow presence.
+
+### Smallest safe next actions
+1. Verify the actual live domain/site/admin evidence and domain ownership first, without replacing the current production site.
+2. Inspect existing FG31 and PRJ004-07 candidates against image manifest before regenerating, then reconcile family/dog/age/style matrices.
+3. Link source blog, graphics, scripts and product records to specific public URLs or explicit NOT PUBLISHED; perform phone and accessibility checks.
+4. Test MyBB/phpBB roles and finalize moderation policy before enabling automatic posting.
+5. Validate one actual Shopify product, scoped paid-service intake, customer acceptance and payment separately before changing revenue.
+6. Keep companion project/product/blog books, Wiki, Markdown handoff and evidence log aligned by dated entries; historical snapshots remain read-only.
+
+Related vocabulary terms only (definitions in P007): Crosswalk key; Asset manifest; Visual lineage; Writer grant; Evidence grade; Publication gate; Approval quorum; Content center; Synchronized ledger.
+
+Evidence boundaries: This update used current canonical Drive views and existing source reports. No user-facing website update, new DNS, Shopify product publication, payment, model inference, video rendering or automatic viewer notification is claimed.
