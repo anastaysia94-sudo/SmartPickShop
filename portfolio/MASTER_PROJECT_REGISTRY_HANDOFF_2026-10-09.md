@@ -166,3 +166,17 @@ This dated section is a follow-up checkpoint. It does not replace the 2026-10-09
 Related vocabulary terms only (definitions in P007): Crosswalk key; Asset manifest; Visual lineage; Writer grant; Evidence grade; Publication gate; Approval quorum; Content center; Synchronized ledger.
 
 Evidence boundaries: This update used current canonical Drive views and existing source reports. No user-facing website update, new DNS, Shopify product publication, payment, model inference, video rendering or automatic viewer notification is claimed.
+
+
+## [ChatGPT - anastaysia94] [2026-10-10 06:37 PT] — Site staging and corrected graphics status
+
+**This is a new evidence delta and supersedes the *status claims* in the 06:17 PT checkpoint, not the historic text or original source records.**
+
+- **Domain registration:** IONOS sent a successful `smartpickshopusa.com` registration confirmation dated 2026-10-09. Public `https://smartpickshopusa.com/` and `https://www.smartpickshopusa.com/` were inaccessible to the Oct 10 web inspection. Account-owner identity/permission and actual DNS/SSL/WordPress state still need private verification; do not assume a website exists or expose registrant/customer identifiers here.
+- **New staging implementation:** WordPress 0.1.0 Four Gears theme added at [site-staging/wordpress/voltage-foundry](../site-staging/wordpress/voltage-foundry/README.md) in commit `0d8137b8e37b576fb62822b49eec5aa6fda1db0a`. Eight theme files include original Brass/Neon/Riot/Midnight visual directions, responsive CSS, WordPress pages/blog, safe empty states, public MyBB/store URL fields and **no public route to private AI phpBB**. GitHub source readback passed; PHP lint, staging activation, official WordPress runtime, real-browser visual/mobile/accessibility tests and production deployment remain open.
+- **Queue newer than 06:17:** the canonical live Oct 10 06:31 PT rows record **303 of 1,949 queue records marked complete and 1,646 open**, not 301/1,949. These are manifest labels, not proof that 303 final images are approved or deployed. The previous number is kept as a historical checkpoint.
+- **Existing graphics:** FG31 PRJ003-03 existing PNG candidate is `1168x784` (not the required `16:9` site hero). Use non-destructive crop/export and visual review, not a new image generation by default. FILE911 `PRJ004-07` and `PRJ004-08` already have distinct Drive image evidence; do not call them missing. `PRJ005-02` is the latest indicated next queue item, subject to prior creative gate and readback.
+- **Live record:** [October 10 site staging corrections](https://docs.google.com/spreadsheets/d/1pbhUGktco-Esh7n_HLFzt5KdUJ-BevXM1h0udUjLrrk/edit#gid=202610137) holds four dated entries; preserve prior 06:17 PT overview for history.
+- **No implied completion:** WordPress/MyBB/phpBB hosting, private forum authorization and moderation, Shopify checkout, original-character partner-canon decisions, video publishing and customer payments remain unverified. Verified paid revenue is not newly established.
+
+**Next safe gate:** Owner-authorized IONOS DNS/hosting confirmation → PHP lint/WordPress staging activation → tested home/blog/public links with approved existing image assets → private phpBB access-isolation and mobile/desktop checks → explicit production publishing.
